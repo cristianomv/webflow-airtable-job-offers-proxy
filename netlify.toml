@@ -1,0 +1,15 @@
+[build]
+functions = "functions"
+
+[[redirects]]
+    from = "/joboffers"
+    to = "/.netlify/functions/jobOffers"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/joboffers-it"
+    to = "/.netlify/functions/jobOffers-it"
+    status = 200
+    force = true
+
