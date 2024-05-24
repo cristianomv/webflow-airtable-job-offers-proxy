@@ -95,7 +95,7 @@
     // Fetch the job offers data from the API
     function fetchResults() {
         fetch(
-            "https://coverflex-airtable-proxy.netlify.app/joboffers-it"
+            "https://coverflex-airtable-job-offers-proxy.netlify.app/joboffers-it"
         )
             .then((response) => response.json())
             .then((data) => {
