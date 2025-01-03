@@ -52,7 +52,6 @@
         return `
             <div class="c-job__offfers--company-row" style="cursor:pointer;">
                 <div class="c-job__offfers--company-header">
-                    ${companyLogoHtml}
                     <div class="c-job__offers--company-details">
                         <div class="c-job__offers--company-details--header">
                             <div class="c-job__offers--company-details_col">
